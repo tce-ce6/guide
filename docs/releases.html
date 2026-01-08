@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CEP – Compatibility Version Table</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f7f9fc;
+      padding: 24px;
+    }
+
+    h2 {
+      margin-bottom: 12px;
+      color: #2c3e50;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      max-width: 1000px;
+      background: #ffffff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    }
+
+    th, td {
+      border: 1px solid #dcdcdc;
+      padding: 10px 12px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    th {
+      background: #f1f3f6;
+      font-weight: 600;
+    }
+
+    td:first-child {
+      font-weight: 600;
+      text-align: left;
+    }
+
+    .yes {
+      color: #1e8e3e;
+      font-weight: bold;
+    }
+
+    .no {
+      color: #d93025;
+      font-weight: bold;
+    }
+
+    caption {
+      caption-side: bottom;
+      padding: 10px;
+      font-size: 13px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>CEP – Simple Compatibility Version Table</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Backend (DB + API)</th>
+        <th>Web – CEP V1</th>
+        <th>Web – CEP V2</th>
+        <th>Android – Polite V1</th>
+        <th>Android – Polite V2</th>
+        <th>Compatible From</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>CEP-BE-1.0</td>
+        <td class="yes">✔️</td>
+        <td class="no">❌</td>
+        <td class="yes">✔️</td>
+        <td class="no">❌</td>
+        <td>01-Jun-2025</td>
+      </tr>
+      <tr>
+        <td>CEP-BE-1.1</td>
+        <td class="yes">✔️</td>
+        <td class="no">❌</td>
+        <td class="yes">✔️</td>
+        <td class="no">❌</td>
+        <td>15-Jul-2025</td>
+      </tr>
+      <tr>
+        <td>CEP-BE-2.0</td>
+        <td class="no">❌</td>
+        <td class="yes">✔️</td>
+        <td class="no">❌</td>
+        <td class="yes">✔️</td>
+        <td>01-Oct-2025</td>
+      </tr>
+      <tr>
+        <td>CEP-BE-2.1</td>
+        <td class="no">❌</td>
+        <td class="yes">✔️</td>
+        <td class="no">❌</td>
+        <td class="yes">✔️</td>
+        <td>10-Nov-2025</td>
+      </tr>
+      <tr>
+        <td>CEP-BE-2.2</td>
+        <td class="no">❌</td>
+        <td class="yes">✔️</td>
+        <td class="no">❌</td>
+        <td class="yes">✔️</td>
+        <td>20-Dec-2025</td>
+      </tr>
+    </tbody>
+    <caption>
+      ✔️ Compatible &nbsp;&nbsp; ❌ Not Compatible
+    </caption>
+  </table>
+
+</body>
+</html>
